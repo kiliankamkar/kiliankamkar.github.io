@@ -12,13 +12,18 @@ body{margin:0;background:#fcfbfa;color:#232020;font-family:'IBM Plex Mono',monos
 a{color:#8b1a1a;text-decoration:none}
 a:hover{color:#5c1010;text-decoration:underline}
 ::selection{background:#f3dcda}
+@media(max-width:560px){
+  body{font-size:15px}
+  nav{font-size:13.5px!important;gap:8px!important}
+  .wrapper{padding:32px 20px 60px!important}
+}
 </style>
 </head>
 <body>
-<div style="max-width:780px;margin:0 auto;padding:44px 24px 80px;min-height:70vh">
+<div class="wrapper" style="max-width:780px;margin:0 auto;padding:44px 24px 80px;min-height:70vh">
   <header style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 16px">
     <a href="index.html" style="font-size:22px;font-weight:700;color:#1a1717">Kilian Kamkar</a>
-    <nav style="display:flex;gap:10px;font-size:15px;align-items:baseline">
+    <nav style="display:flex;gap:10px;font-size:15px;align-items:baseline;flex-wrap:wrap">
       <a href="index.html">Home</a><span style="color:#b9aeac">/</span>
       <a href="research.html">Research</a><span style="color:#b9aeac">/</span>
       <a href="teaching.html">Teaching</a><span style="color:#b9aeac">/</span>

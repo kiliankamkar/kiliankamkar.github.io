@@ -41,13 +41,21 @@ summary:hover{color:#5c1010}
 .pr{font-size:13px;line-height:1.7;margin:9px 0 0;color:#6b6260}
 .pr strong{color:inherit;font-weight:400}
 @media(max-width:560px){.abs{text-align:left}}
+@media(max-width:560px){
+  body{font-size:15px}
+  nav{font-size:13.5px!important;gap:8px!important}
+  .wrapper{padding:32px 20px 60px!important}
+}
+@media(max-width:560px){
+  .portrait{float:none!important;display:block;width:160px!important;margin:0 0 20px!important}
+}
 </style>
 </head>
 <body>
-<div style="max-width:780px;margin:0 auto;padding:44px 24px 80px">
+<div class="wrapper" style="max-width:780px;margin:0 auto;padding:44px 24px 80px">
   <header style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 16px">
     <a href="index.html" style="font-size:22px;font-weight:700;color:#1a1717">Kilian Kamkar</a>
-    <nav style="display:flex;gap:10px;font-size:15px;align-items:baseline">
+    <nav style="display:flex;gap:10px;font-size:15px;align-items:baseline;flex-wrap:wrap">
       <a href="index.html" style="font-weight:600;color:#5c1010">Home</a><span style="color:#b9aeac">/</span>
       <a href="research.html">Research</a><span style="color:#b9aeac">/</span>
       <a href="teaching.html">Teaching</a><span style="color:#b9aeac">/</span>
@@ -57,7 +65,7 @@ summary:hover{color:#5c1010}
   </header>
   <hr style="border:none;border-top:1px solid #e2dbd9;margin:18px 0 32px">
 
-  <img src="uploads/photo-1791109827000.jpg" alt="Kilian Kamkar" style="float:right;width:190px;border-radius:3px;margin:6px 0 18px 26px">
+  <img class="portrait" src="uploads/photo-1791109827000.jpg" alt="Kilian Kamkar" style="float:right;width:190px;border-radius:3px;margin:6px 0 18px 26px">
 
   <p style="font-size:15.5px;line-height:1.7;margin:0 0 18px">Hi, welcome to my website!</p>
   <p style="font-size:15.5px;line-height:1.7;margin:0 0 18px">I am a PhD Candidate in Economics at the <a href="https://www.econ.cam.ac.uk/" target="_blank" rel="noopener">University of Cambridge</a>, supervised by Tiago Cavalcanti and Christopher Rauh. During my PhD, I visited FGV São Paulo and the Banco Central do Brasil, where I work with confidential microdata.</p>
