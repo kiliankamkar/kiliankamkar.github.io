@@ -7,7 +7,7 @@
 <title>Kilian Kamkar — alternative home (preview)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap" rel="stylesheet">
 <style>
 :root{--ink:#201c1b;--soft:#4a4341;--mut:#7a706d;--red:#8b1a1a;--line:#e3dcd9;--bg:#fcfbf9}
 *{box-sizing:border-box}
@@ -21,12 +21,6 @@ a:hover{text-decoration:underline;text-underline-offset:2px}
 .wrap{max-width:900px;margin:0 auto;padding:54px 28px 110px}
 
 header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:10px 20px}
-.name{font-size:27px;font-weight:600;letter-spacing:.005em;color:var(--ink)}
-nav{font-family:'IBM Plex Mono',monospace;font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;
-    display:flex;gap:9px;align-items:baseline}
-nav .div{color:#c9bfbc}
-nav .on{color:var(--ink);font-weight:600}
-.rule{border:none;border-top:1px solid var(--line);margin:20px 0 40px}
 
 .intro p{margin:0 0 17px;max-width:62ch}
 .portrait{float:right;width:188px;border-radius:2px;margin:4px 0 20px 34px;filter:saturate(.96)}
@@ -65,17 +59,17 @@ summary:hover{color:#5c1010}
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <a class="name" href="#">Kilian Kamkar</a>
-    <nav class="mono">
-      <a class="on" href="#">Home</a><span class="div">/</span>
-      <a href="research.html">Research</a><span class="div">/</span>
-      <a href="teaching.html">Teaching</a><span class="div">/</span>
-      <a href="KilianKamkarCV.pdf" target="_blank" rel="noopener">CV</a><span class="div">/</span>
+  <header style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 16px;font-family:'IBM Plex Mono',monospace">
+    <a href="#" style="font-size:22px;font-weight:700;color:#1a1717">Kilian Kamkar</a>
+    <nav style="display:flex;gap:10px;font-size:15px;align-items:baseline">
+      <a href="#" style="font-weight:600;color:#5c1010">Home</a><span style="color:#b9aeac">/</span>
+      <a href="research.html">Research</a><span style="color:#b9aeac">/</span>
+      <a href="teaching.html">Teaching</a><span style="color:#b9aeac">/</span>
+      <a href="KilianKamkarCV.pdf" target="_blank" rel="noopener">CV</a><span style="color:#b9aeac">/</span>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <hr class="rule">
+  <hr style="border:none;border-top:1px solid #e2dbd9;margin:18px 0 32px">
 
   <div class="intro">
     <img class="portrait" src="uploads/photo-1791109827000.jpg" alt="Kilian Kamkar">
