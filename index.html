@@ -25,6 +25,23 @@ body{margin:0;background:#fcfbfa;color:#232020;font-family:'IBM Plex Mono',monos
 a{color:#8b1a1a;text-decoration:none}
 a:hover{color:#5c1010;text-decoration:underline}
 ::selection{background:#f3dcda}
+.sec{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#1a1717;margin:54px 0 0;padding-bottom:7px;border-bottom:1px solid #d9d2d0}
+.item{margin-top:28px}
+.ttl{font-size:15.5px;line-height:1.5;font-weight:700;margin:0}
+.ttl a{color:#8b1a1a}
+.ttl.plain{color:#1a1717}
+.au{font-size:14px;line-height:1.6;margin:5px 0 0;color:#464040}
+.st{font-size:14px;line-height:1.6;margin:5px 0 0;color:#6b6260;font-style:italic}
+.lk{font-size:14px;line-height:1.6;margin:6px 0 0}
+.lk span{color:#b9aeac;margin:0 7px}
+details{margin-top:9px}
+summary{cursor:pointer;font-size:13.5px;font-weight:600;color:#8b1a1a;list-style-position:inside}
+summary:hover{color:#5c1010}
+.abs{font-size:13.5px;line-height:1.8;margin:10px 0 0;color:#3f3a39;text-align:justify;hyphens:auto;border-left:2px solid #e5d2d0;padding-left:15px}
+.abs i{color:#1a1717;font-weight:600;font-style:italic}
+.pr{font-size:13px;line-height:1.7;margin:9px 0 0;color:#6b6260}
+.pr strong{color:#464040}
+@media(max-width:560px){.abs{text-align:left}}
 </style>
 </head>
 <body>
@@ -50,60 +67,55 @@ a:hover{color:#5c1010;text-decoration:underline}
   <p style="font-size:15.5px;line-height:1.7;margin:0 0 18px;font-weight:700;color:#8b1a1a">I am on the 2026/27 economics job market.</p>
   <p style="font-size:15.5px;line-height:1.7;margin:0 0 18px">Here is my <a href="KilianKamkarCV.pdf" target="_blank" rel="noopener">CV</a>. Email: <a href="mailto:kk745@cam.ac.uk">kk745@cam.ac.uk</a></p>
 
-  <h2 style="font-size:22px;margin:48px 0 6px;clear:both">Job Market Paper</h2>
-  <div style="display:flex;flex-direction:column;gap:10px;margin-top:14px">
-    <p style="font-size:15.5px;line-height:1.65;margin:0"><strong>Deforestation without Development? Trade, Land Use, and Technology Investments</strong><br>with Fernando Chertman</p>
-    <p style="font-size:14px;line-height:1.6;margin:0;display:flex;gap:14px;flex-wrap:wrap"><a href="papers/KamkarJMP.pdf" target="_blank" rel="noopener">[PDF]</a></p>
+  <h2 class="sec" style="clear:both">Job Market Paper</h2>
+  <div class="item">
+    <p class="ttl"><a href="papers/KamkarJMP.pdf" target="_blank" rel="noopener">Deforestation without Development? Trade, Land Use, and Technology Investments</a></p>
+    <p class="au">with Fernando Chertman</p>
     <details>
-      <summary style="cursor:pointer;font-size:14px;font-weight:600;color:#8b1a1a">Abstract</summary>
-      <p style="font-size:14px;line-height:1.7;margin:10px 0 0;color:#464040;border-left:2px solid #e5d2d0;padding-left:14px;text-align:justify;hyphens:auto">Does higher foreign demand for agricultural exports drive economic development through technology adoption, or simply fuel deforestation through land expansion? We study this question during Brazil’s 2000s commodity boom, combining novel data on the near-universe of agricultural input purchases from cross-bank transactions with satellite data on farm-level land use. Using a shift-share shock, we find that a proportional increase in foreign demand for beef and soy causes farmers in the Amazon to reallocate land from capital-intensive soybean toward land-intensive pasture, reducing their purchases of machinery and technology as pasture replaces forest. We show that this response emerges as a privately optimal decision due to the asymmetric use of land and technology across agricultural activities, since abundant land can cause farmers to specialize in pasture, reducing the area under crop cultivation needed to justify technology investments. We then embed this mechanism in general equilibrium and find that deforestation accounted for almost half of agricultural value added growth, compared with less than 10% from technology. Lastly, we provide a welfare rationale for forest protection beyond environmental externalities, arising instead from incentivizing labor-saving modernization which reduces labor misallocation. A perfectly enforced no-deforestation tax of around US$700 per hectare redirects growth toward technology adoption and raises the welfare gains from trade by more than 75 percent.</p>
+      <summary>Abstract</summary>
+      <p class="abs"><i>Abstract.</i> Does higher foreign demand for agricultural exports drive economic development through technology adoption, or simply fuel deforestation through land expansion? We study this question during Brazil’s 2000s commodity boom, combining novel data on the near-universe of agricultural input purchases from cross-bank transactions with satellite data on farm-level land use. Using a shift-share shock, we find that a proportional increase in foreign demand for beef and soy causes farmers in the Amazon to reallocate land from capital-intensive soybean toward land-intensive pasture, reducing their purchases of machinery and technology as pasture replaces forest. We show that this response emerges as a privately optimal decision due to the asymmetric use of land and technology across agricultural activities, since abundant land can cause farmers to specialize in pasture, reducing the area under crop cultivation needed to justify technology investments. We then embed this mechanism in general equilibrium and find that deforestation accounted for almost half of agricultural value added growth, compared with less than 10% from technology. Lastly, we provide a welfare rationale for forest protection beyond environmental externalities, arising instead from incentivizing labor-saving modernization which reduces labor misallocation. A perfectly enforced no-deforestation tax of around US$700 per hectare redirects growth toward technology adoption and raises the welfare gains from trade by more than 75 percent.</p>
     </details>
-    <p style="font-size:14px;line-height:1.6;margin:0;color:#6b6260"><strong style="color:#464040">Presentations:</strong> EEA Annual Congress of the European Economic Association (Dublin); AMES Asian Meeting of the Econometric Society (Hong Kong); GDE-EDEG German Development Economics Conference (Kiel); EAYE Annual Meeting (Bilbao); RCEA Conference (Madrid)</p>
+    <p class="pr"><strong>Presentations:</strong> EEA Annual Congress of the European Economic Association (Dublin); AMES Asian Meeting of the Econometric Society (Hong Kong); GDE-EDEG German Development Economics Conference (Kiel); EAYE Annual Meeting (Bilbao); RCEA Conference (Madrid)</p>
   </div>
-
-  <h2 style="font-size:22px;margin:48px 0 6px">Working Papers</h2>
-  <div style="display:flex;flex-direction:column;gap:34px;margin-top:14px">
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <p style="font-size:15.5px;line-height:1.65;margin:0"><strong>Differential Land Efficiency and the Environmental Consequences of Agricultural Productivity Growth</strong><br>with Tiago Cavalcanti</p>
-      <p style="font-size:14px;line-height:1.6;margin:0;color:#6b6260;font-style:italic">Revise &amp; Resubmit, <strong style="color:#464040">Journal of Development Economics</strong></p>
-      <p style="font-size:14px;line-height:1.6;margin:0;display:flex;gap:14px;flex-wrap:wrap"><a href="papers/DifferentialLandEfficiency.pdf" target="_blank" rel="noopener">[PDF]</a> <a href="https://cepr.org/publications/dp21131" target="_blank" rel="noopener">[CEPR Discussion Paper]</a> <a href="https://grp.cepr.org/publications/steg-working-paper/differential-land-efficiency-and-environmental-consequences" target="_blank" rel="noopener">[STEG Working Paper]</a></p>
-      <details>
-        <summary style="cursor:pointer;font-size:14px;font-weight:600;color:#8b1a1a">Abstract</summary>
-        <p style="font-size:14px;line-height:1.7;margin:10px 0 0;color:#464040;border-left:2px solid #e5d2d0;padding-left:14px;text-align:justify;hyphens:auto">Does improving agricultural productivity spare forests or accelerate their demise? We offer a new perspective on this debate by emphasizing the relative agricultural suitability of forest versus available vacant land for conversion. We develop a parsimonious framework in which land differs in agricultural efficiency across alternative expansion margins, showing that productivity gains translate into deforestation only when forests constitute the most cost-effective source of additional effective land. We test this prediction using a quasi-experimental design based on Tanzania's National Agricultural Input Voucher Scheme (NAIVS), which promoted modern seed and fertilizer adoption. Combining high-resolution satellite data on forest loss with spatial data on soil nitrogen to proxy relative suitability, we find that the program increased deforestation only in villages where vacant land was substantially less productive than forest land. Our results highlight the central role of land quality heterogeneity in shaping the environmental consequences of agricultural productivity growth, offer a complementary explanation for land-sparing versus expansionary outcomes, and point to a role for directed agricultural innovation in mitigating deforestation without constraining productivity growth.</p>
-      </details>
-      <p style="font-size:14px;line-height:1.6;margin:0;color:#6b6260"><strong style="color:#464040">Presentations:</strong> LuBraMacro (Natal); SED Society for Economic Dynamics (Cartagena); BSE Summer Forum (Barcelona); Y-RISE Yale Research Initiative on Innovation and Scale (Grand Cayman); EAYE Annual Meeting (Paris); CIREQ PhD Symposium</p>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <p style="font-size:15.5px;line-height:1.65;margin:0"><strong>Could Credit Save the Amazon Forest?</strong><br>with Rafael Araujo, Tiago Cavalcanti, Daniel Da Mata &amp; Fernando Chertman</p>
-      <p style="font-size:14px;line-height:1.6;margin:0;display:flex;gap:14px;flex-wrap:wrap"><a href="papers/CreditDeforestation.pdf" target="_blank" rel="noopener">[PDF]</a></p>
-      <details>
-        <summary style="cursor:pointer;font-size:14px;font-weight:600;color:#8b1a1a">Abstract</summary>
-        <p style="font-size:14px;line-height:1.7;margin:10px 0 0;color:#464040;border-left:2px solid #e5d2d0;padding-left:14px;text-align:justify;hyphens:auto">This paper investigates how rural credit shapes agricultural land use and forest conservation in Brazil. We combine farm-level evidence with a dynamic general equilibrium model of land use. We first link administrative loan records, interbank payments, and satellite imagery. Using a staggered difference-in-differences design, we find that farms in the Legal Amazon shift from pasture toward crops, increase spending on machinery and fertilizer, and retain more forest following first credit receipt, relative to farms that have not yet received credit. We then develop a dynamic model with crops, pasture, endogenous forest cover, and land rental markets which we calibrate to the Legal Amazon to evaluate how conditioning rural credit on environmental compliance affects conservation and agricultural production. In partial equilibrium, with land rents held fixed, raising borrowing costs for noncompliant farms or restricting credit to compliant farms increases long-run forest cover by 13–17%. General equilibrium adjustments reduce these gains to approximately 2%, while agricultural output remains virtually unchanged. As landowners conserve forest, the supply of cleared land falls and rents rise. Higher rents increase the income landowners forgo by retaining forest, offsetting most of the direct conservation incentive.</p>
-      </details>
-    </div>
+  <h2 class="sec">Working Papers</h2>
+  <div class="item">
+    <p class="ttl"><a href="papers/DifferentialLandEfficiency.pdf" target="_blank" rel="noopener">Differential Land Efficiency and the Environmental Consequences of Agricultural Productivity Growth</a></p>
+    <p class="au">with Tiago Cavalcanti</p>
+    <p class="st">Revise &amp; Resubmit, <strong style="color:#464040;font-style:normal">Journal of Development Economics</strong></p>
+    <p class="lk"><a href="https://cepr.org/publications/dp21131" target="_blank" rel="noopener">CEPR Discussion Paper</a><span>&middot;</span><a href="https://grp.cepr.org/publications/steg-working-paper/differential-land-efficiency-and-environmental-consequences" target="_blank" rel="noopener">STEG Working Paper</a></p>
+    <details>
+      <summary>Abstract</summary>
+      <p class="abs"><i>Abstract.</i> Does improving agricultural productivity spare forests or accelerate their demise? We offer a new perspective on this debate by emphasizing the relative agricultural suitability of forest versus available vacant land for conversion. We develop a parsimonious framework in which land differs in agricultural efficiency across alternative expansion margins, showing that productivity gains translate into deforestation only when forests constitute the most cost-effective source of additional effective land. We test this prediction using a quasi-experimental design based on Tanzania's National Agricultural Input Voucher Scheme (NAIVS), which promoted modern seed and fertilizer adoption. Combining high-resolution satellite data on forest loss with spatial data on soil nitrogen to proxy relative suitability, we find that the program increased deforestation only in villages where vacant land was substantially less productive than forest land. Our results highlight the central role of land quality heterogeneity in shaping the environmental consequences of agricultural productivity growth, offer a complementary explanation for land-sparing versus expansionary outcomes, and point to a role for directed agricultural innovation in mitigating deforestation without constraining productivity growth.</p>
+    </details>
+    <p class="pr"><strong>Presentations:</strong> LuBraMacro (Natal); SED Society for Economic Dynamics (Cartagena); BSE Summer Forum (Barcelona); Y-RISE Yale Research Initiative on Innovation and Scale (Grand Cayman); EAYE Annual Meeting (Paris); CIREQ PhD Symposium</p>
   </div>
-
-  <h2 style="font-size:22px;margin:48px 0 6px">Work in Progress</h2>
-  <div style="display:flex;flex-direction:column;gap:34px;margin-top:14px">
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <p style="font-size:15.5px;line-height:1.65;margin:0"><strong>Hegemon, What Hegemon? The Elusive Spillovers of British and American Monetary Policies until WWII</strong> <a href="papers/HegemonSlides.pdf" target="_blank" rel="noopener" style="font-size:14px">[Slides]</a><br>with Paul Bouscasse, James Cloyne &amp; Jason Lennard</p>
-      <p style="font-size:14px;line-height:1.6;margin:0;color:#6b6260;font-style:italic">Draft coming soon.</p>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <p style="font-size:15.5px;line-height:1.65;margin:0"><strong>Firm Expansion, Supply Chains, and Regional Integration</strong><br>with Mathis Y. Momm &amp; Fernando Chertman</p>
-    </div>
+  <div class="item">
+    <p class="ttl"><a href="papers/CreditDeforestation.pdf" target="_blank" rel="noopener">Could Credit Save the Amazon Forest?</a></p>
+    <p class="au">with Rafael Araujo, Tiago Cavalcanti, Daniel Da Mata &amp; Fernando Chertman</p>
+    <details>
+      <summary>Abstract</summary>
+      <p class="abs"><i>Abstract.</i> This paper investigates how rural credit shapes agricultural land use and forest conservation in Brazil. We combine farm-level evidence with a dynamic general equilibrium model of land use. We first link administrative loan records, interbank payments, and satellite imagery. Using a staggered difference-in-differences design, we find that farms in the Legal Amazon shift from pasture toward crops, increase spending on machinery and fertilizer, and retain more forest following first credit receipt, relative to farms that have not yet received credit. We then develop a dynamic model with crops, pasture, endogenous forest cover, and land rental markets which we calibrate to the Legal Amazon to evaluate how conditioning rural credit on environmental compliance affects conservation and agricultural production. In partial equilibrium, with land rents held fixed, raising borrowing costs for noncompliant farms or restricting credit to compliant farms increases long-run forest cover by 13–17%. General equilibrium adjustments reduce these gains to approximately 2%, while agricultural output remains virtually unchanged. As landowners conserve forest, the supply of cleared land falls and rents rise. Higher rents increase the income landowners forgo by retaining forest, offsetting most of the direct conservation incentive.</p>
+    </details>
   </div>
-
-  <h2 style="font-size:22px;margin:48px 0 6px">Policy Work</h2>
-  <div style="display:flex;flex-direction:column;gap:34px;margin-top:14px">
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <p style="font-size:15.5px;line-height:1.65;margin:0"><strong>Structural Transformation, Climate and Growth: an Agricultural Extension of the Long Term Growth Model (LTGM-AG)</strong><br>with Steven Pennings &amp; Arthur Mendes</p>
-      <p style="font-size:14px;line-height:1.6;margin:0;color:#6b6260;font-style:italic">Draft coming soon.</p>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <p style="font-size:15.5px;line-height:1.65;margin:0"><strong>Subnational Cash Transfers in Developing Countries: A New Cross-Country Dataset</strong><br>with Steven Pennings, Patricio Diaz, Yiruo Li &amp; Arthur Mendes</p>
-      <p style="font-size:14px;line-height:1.6;margin:0;color:#6b6260;font-style:italic">Draft coming soon.</p>
-    </div>
+  <h2 class="sec">Work in Progress</h2>
+  <div class="item">
+    <p class="ttl"><a href="papers/HegemonSlides.pdf" target="_blank" rel="noopener">Hegemon, What Hegemon? The Elusive Spillovers of British and American Monetary Policies until WWII</a></p>
+    <p class="au">with Paul Bouscasse, James Cloyne &amp; Jason Lennard</p>
+  </div>
+  <div class="item">
+    <p class="ttl plain">Firm Expansion, Supply Chains, and Regional Integration</p>
+    <p class="au">with Mathis Y. Momm &amp; Fernando Chertman</p>
+  </div>
+  <h2 class="sec">Policy Work</h2>
+  <div class="item">
+    <p class="ttl plain">Structural Transformation, Climate and Growth: an Agricultural Extension of the Long Term Growth Model (LTGM-AG)</p>
+    <p class="au">with Steven Pennings &amp; Arthur Mendes</p>
+    <p class="st">Draft coming soon.</p>
+  </div>
+  <div class="item">
+    <p class="ttl plain">Subnational Cash Transfers in Developing Countries: A New Cross-Country Dataset</p>
+    <p class="au">with Steven Pennings, Patricio Diaz, Yiruo Li &amp; Arthur Mendes</p>
+    <p class="st">Draft coming soon.</p>
   </div>
 </div>
 <script data-goatcounter="https://kiliankamkar.goatcounter.com/count"
